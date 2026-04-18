@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:embed": "vite build --config vite.embed.config.js",
     "build:with-docs": "pnpm --filter @cbioportal-cell-explorer/docs build && cp -r ../../docs/build public/docs && vite build",
     "preview": "vite preview",
     "test": "vitest run",
